@@ -27,8 +27,8 @@ These sets were also used while tuning the prompt, so expect lower accuracy on r
 Requires Python 3.10+ and an [OpenAI API key](https://platform.openai.com/settings/organization/api-keys).
 
 ```bash
-git clone https://github.com/ham1d-sys/ticket-triage-pipeline.git
-cd ticket-triage-pipeline
+git clone https://github.com/ham1d-sys/triazh.git
+cd triazh
 
 # Optional but recommended: virtual environment
 python3 -m venv .venv
