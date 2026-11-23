@@ -1,6 +1,6 @@
-# Ticket Triage Pipeline
+# Triazh
 
-An LLM pipeline that validates support tickets, classifies each valid one by category and urgency with the OpenAI API,
+Triazh (Bulgarian for "triage") is an LLM pipeline that validates support tickets, classifies each valid one by category and urgency with the OpenAI API,
 and writes auditable CSV outputs. It is built to be safe to run unattended: it treats ticket text as untrusted input,
 retries transient API failures, aborts cleanly when the API is unavailable, and records a manifest for every run.
 
