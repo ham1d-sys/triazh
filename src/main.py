@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import get_args, get_type_hints
 
+from fastapi import FastAPI
 from openai import OpenAIError
 from tenacity import RetryError
 
