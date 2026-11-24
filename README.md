@@ -248,8 +248,8 @@ Calls are sequential, so the numbers don't capture latency under `MAX_CONCURRENC
 - Only one model and one prompt have been evaluated; there is no comparison across models or prompt versions yet.
 - Latency is measured one call at a time, not under concurrent load.
 - Next:
-  - A held-out test set
-  - Aggregating scores across repeated runs automatically (`score.py` scores only the newest run of each input)
+  - Process tickets from an endpoint
+  - Write results to apps like Jira
   - Cost tracking per run
   - Switching to a System One model
   - A Request-Per-Minute (RPM) rate limit
